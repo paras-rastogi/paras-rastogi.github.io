@@ -22,8 +22,19 @@ body {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
 }
+.content-section-skills {
+  padding-top: 2rem;
+  padding-bottom: 7.5rem;
+}
 
 /*  */
+
+#contact{
+  background-image:  url("../img/bk6.gif");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 30em 20em;
+}
 
 .portfolio {
   margin-bottom: -15px;
@@ -165,6 +176,13 @@ h6 {
   font-weight: 800;
 }
 
+.background-about{
+  background-image:  url("../img/bk4.gif");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
 .masthead {
   min-height: 30rem;
   position: relative;
@@ -173,15 +191,14 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-masthead.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
-  background-position: center center;
+  background-image:  url("../img/bk3.gif");
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
 }
 
 .masthead h1 {
-  font-size: 4rem;
+  font-size: 4 rem;
   margin: 0;
   padding: 0;
 }
@@ -191,7 +208,7 @@ h6 {
     height: 100vh;
   }
   .masthead h1 {
-    font-size: 5.5rem;
+    font-size: 5em;
   }
 }
 
@@ -317,6 +334,7 @@ h6 {
 footer.footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
+  background-color: #1D809F
 }
 
 footer.footer .social-link {
@@ -325,7 +343,7 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #1D809F;
+  background-color: #343a40;
   -webkit-transition: background-color 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out;
   -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
@@ -333,7 +351,7 @@ footer.footer .social-link {
 }
 
 footer.footer .social-link:hover {
-  background-color: #155d74;
+  background-color: #343a40;
   text-decoration: none;
 }
 
